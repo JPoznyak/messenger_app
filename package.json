@@ -1,11 +1,17 @@
 {
   "name": "messenger-app",
   "version": "1.0.0",
-  "dependencies": {
-      "express": "4.17.1",
-      "socket.io": "2.4.0"
-  },
   "scripts": {
-      "start": "node server/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "JenP",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13",
+    "socket.io": "^4.2.0"
   }
 }
